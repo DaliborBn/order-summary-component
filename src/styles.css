@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply h-screen font-redHat flex justify-center items-center bg-deskBack bg-paleBlue bg-contain bg-no-repeat
+}
+
+.container {
+  @apply max-w-primary bg-white flex flex-col justify-center shadow-primary shadow-shadowColor rounded-xl overflow-hidden mx-5
+}
+
+.my-opacity {
+  @apply hover:opacity-80 transition-opacity ease-out duration-300 cursor-pointer
+}
+
+.payment-btn {
+  @apply w-full bg-rightBlue text-sm text-center font-bold text-veryPaleBlue px-3 py-2.5 mb-5 rounded-xl overflow-hidden shadow-btn shadow-btnShadowColor
+}
