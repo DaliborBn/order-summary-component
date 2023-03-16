@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 body {
-  @apply h-screen font-redHat flex justify-center items-center bg-deskBack bg-paleBlue bg-contain bg-no-repeat
+  @apply min-h-screen font-redHat flex justify-center items-center bg-deskBack bg-paleBlue bg-contain bg-no-repeat
 }
 
 .container {
