@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  @apply max-w-primary bg-white flex flex-col justify-center shadow-primary shadow-shadowColor rounded-xl overflow-hidden mx-5
+  @apply max-w-primary bg-white flex flex-col justify-center shadow-primary shadow-shadowColor rounded-xl overflow-hidden mx-5 my-7
 }
 
 .my-opacity {
