@@ -754,3 +754,14 @@ body{
 .hover\:no-underline:hover{
   text-decoration-line: none;
 }
+
+@media (min-width: 768px){
+  .md\:hover\:text-darkBlue:hover{
+    --tw-text-opacity: 1;
+    color: hsl(223 47% 23% / var(--tw-text-opacity));
+  }
+
+  .md\:hover\:no-underline:hover{
+    text-decoration-line: none;
+  }
+}
